@@ -21,4 +21,4 @@ To get a local copy up and running, follow these steps:
 
 **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/masterful-landing-page.git
+   git clone https://github.com/mofachhalhossain/masterful-landing-page.git
