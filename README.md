@@ -1,7 +1,5 @@
 # Masterful Landing Page: Figma to HTML & CSS Conversion
 
-Welcome to the repository for the Masterful Landing Page, a conversion project from a Figma design to a fully responsive HTML and CSS landing page.
-
 ![Masterful Landing Page](https://mofachhalhossain.com/wp-content/uploads/2024/06/Branding-Agency-UI.png)
 
 ## Introduction
