@@ -6,12 +6,27 @@
   padding: 0;
 }
 
+input:focus {
+  outline: none;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+}
+
 header {
   padding: 60px 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 15px;
+}
+
+body {
+  background-color: #f4f4f4;
 }
 
 .main-logo {
@@ -73,8 +88,6 @@ header {
 
 .body-section {
   padding: 40px 0px;
-  display: flex;
-  justify-content: center;
 }
 
 .body-title {
@@ -85,7 +98,431 @@ header {
   font-size: 36px;
   line-height: 42px;
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
+  color: #000000;
+}
+
+.product-section {
+  max-width: 1200px;
+  padding: 50px 10px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 30px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  max-width: 670px;
+}
+
+.card > img {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.product-description {
+  background-color: #FFFFFF;
+  padding: 30px 30px 50px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.product-tags {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #888888;
+}
+
+.product-name {
+  padding: 5px 0px 10px 0px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.product-statement {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.product-single-img {
+  max-width: 505px;
+}
+
+.product-single-img > img {
+  border-radius: 10px;
+}
+
+.section-7 > .card {
+  max-width: 570px;
+}
+
+.featured-product-section {
+  padding: 30px 0;
+  margin: 30px 0;
+}
+
+.featured-product-section > img {
+  max-width: 304px;
+  margin: 0 auto;
+}
+
+.featured-product-section > p {
+  max-width: 580px;
+  padding: 10px 0;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.featured-products {
+  margin: 30px 0 0 0;
+}
+
+.featured-products img {
+  max-width: 461px;
+}
+
+.products-top,
+.products-bottom {
+  padding: 7px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.products-top {
+  align-items: flex-end;
+}
+
+.products-bottom {
+  align-items: flex-start;
+}
+
+.products-top img:first-child,
+.products-bottom img:nth-child(4) {
+  max-width: 215px;
+  max-height: 215px;
+}
+
+.products-top img:nth-child(2),
+.products-bottom img:nth-child(2) {
+  max-width: 461px;
+  max-height: 461px;
+}
+
+.products-top img:nth-child(3),
+.products-bottom img:first-child {
+  max-width: 348px;
+  max-height: 348px;
+}
+
+.products-top img:nth-child(4),
+.products-bottom img:nth-child(5) {
+  max-width: 423px;
+  max-height: 423px;
+}
+
+.products-top img:nth-child(5),
+.products-bottom img:nth-child(3) {
+  max-width: 291px;
+  max-height: 291px;
+}
+
+.brand-service {
+  padding: 60px;
+  background-color: #000000;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brand-service-title {
+  padding: 5px 0px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.brand-service-description {
+  padding: 5px 0px;
+  max-width: 525px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.service-icons {
+  max-width: 1200px;
+  padding: 30px 0 0 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.icon-box {
+  width: 277px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-box > img {
+  max-width: 120px;
+  margin: 0 0 10px 0;
+}
+
+.icon-box > p {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.collarborated-companies {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.collarborated-title {
+  max-width: 769px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.company-logos {
+  max-width: 1200px;
+  padding: 30px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.company-logos > img {
+  max-width: 170px;
+}
+
+.locations-section {
+  padding: 30px 0;
+  display: flex;
+  position: relative;
+}
+
+.location-description {
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -8%;
+}
+
+.location-place {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.location-address > h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.location-address > p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.contact-us {
+  padding: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-title {
+  padding: 5px 0;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.contact-description {
+  max-width: 757px;
+  padding: 5px 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.contact-btn {
+  margin: 20px 0;
+  box-sizing: border-box;
+  padding: 16px 19.6094px 16px 21px;
+  border: 1px solid #000000;
+  text-decoration: none;
+  color: #000000;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.contact-btn:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+  transition: 0.5s;
+}
+
+.newsleter {
+  padding: 60px 360px;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newsleter-signup {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.newsleter-description {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.newsleter-input > input {
+  width: 500px;
+  padding: 20px 5px;
+  box-sizing: border-box;
+  background-color: #000000;
+  color: #FFFFFF;
+  border: none;
+  border-bottom: 1px solid #999999;
+}
+
+.newsleter-input > button {
+  padding: 20px 24.8906px 20px 24px;
+  border: 1px solid #FFFFFF;
+  background-color: #000000;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.newsleter-input > button:hover {
+  background-color: #FFFFFF;
   color: #000000;
 }
